@@ -2,6 +2,7 @@
 
 - name: Get security groups on name
   ec2_group_facts:
+    region: "{{ region }}"
     filters:
       group-name: "{{ sec_group_names }}"
   register: aws_groups
