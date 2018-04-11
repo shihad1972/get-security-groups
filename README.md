@@ -1,12 +1,12 @@
 get-security-groups
 =========
 
- Giving a list of AWS security group names, return a list of their ID's
+Giving a list of AWS security group names, return a list of their ID's
 
 Requirements
 ------------
 
- AWS account and boto on the ansible node.
+AWS account and boto on the ansible node.
 
 Role Variables
 --------------
@@ -23,13 +23,13 @@ Dependencies
 Example Playbook
 ----------------
 
-  - hosts: localhost
-    vars:
-      sec_group_names:
-        - My App Group
-        - His Web group
-    roles:
-      - { role: get-security-groups }
+    - hosts: localhost
+      vars:
+        sec_group_names:
+          - My App Group
+          - His Web group
+      roles:
+        - { role: get-security-groups }
 
 License
 -------
