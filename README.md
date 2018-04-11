@@ -1,4 +1,4 @@
-Role Name
+get-security-groups
 =========
 
  Giving a list of AWS security group names, return a list of their ID's
