@@ -1,4 +1,4 @@
 ---
 # tasks file for get-security-groups
-- include: name.yml
+- include_tasks: name.yml
   when: sec_group_names is defined
